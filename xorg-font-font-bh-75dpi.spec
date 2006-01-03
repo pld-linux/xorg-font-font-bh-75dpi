@@ -1,12 +1,12 @@
 Summary:	bh-75dpi font
 Summary(pl):	Font bh-75dpi
 Name:		xorg-font-font-bh-75dpi
-Version:	0.99.2
+Version:	1.0.0
 Release:	0.1
-License:	MIT
+License:	distributable (see COPYING)
 Group:		Fonts
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/font/font-bh-75dpi-%{version}.tar.bz2
-# Source0-md5:	ee914ec11cb03df27f205f4753f325ad
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/font/font-bh-75dpi-%{version}.tar.bz2
+# Source0-md5:	6e51cd02f4ce32e1393e34ab17a9b211
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
