@@ -2,7 +2,7 @@ Summary:	Bigelow & Holmes Lucida 75dpi bitmap fonts
 Summary(pl.UTF-8):	Fonty bitmapowe 75dpi Bigelow & Holmes Lucida
 Name:		xorg-font-font-bh-75dpi
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	distributable (see COPYING)
 Group:		Fonts
 Source0:	http://xorg.freedesktop.org/releases/individual/font/font-bh-75dpi-%{version}.tar.bz2
@@ -20,6 +20,7 @@ Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/75dpi
 # contains useful aliases for these fonts
 Requires:	xorg-font-font-alias >= 1.0.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
